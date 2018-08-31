@@ -13,7 +13,7 @@ class GeoBase
     GeoBase( ) {}
 
     long double degToRad( double deg );
-    long double degToRad( double deg, double min = 0, double sec = 0 );
+    long double degToRad( double deg, double min, double sec );
     long double radToDeg( double rad );
 
     public:
